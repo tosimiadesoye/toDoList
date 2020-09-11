@@ -42,12 +42,6 @@ input.value = "";
 }
 
 
-/*editBtn.onclick = editItem => {
-  let del = [].splice(0, -1)
-  del.style.display = ("none")
-}
 
-tick.onclick = tickedItem = () => {
-    paraItems.style.textDecorationLine = "line-through" 
-}*/
+
 
