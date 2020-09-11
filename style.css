@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(127, 255, 155);
+    text-align: center;
+}
+
+.to-do{
+    color: rgb(204, 23, 23);
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.to-do:hover, .input:hover {
+    opacity: 0.7;
+}
+
+.input{
+    width: 50%;
+    height: 1px;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: white;
+    border: solid rgb(95, 81, 17);
+}
+
+.button{
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+   background-color: rgb(197, 128, 24);
+    border:  rgb(8, 7, 2);
+}
+
+.div-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;  
+}
+
+/*.paragraph{
+    position: absolute;
+    bottom: 235px;
+    right: 250px;
+    border: 3px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.edit{
+    position: absolute;
+    bottom: 250px;
+    right: 60px;
+    border: 3px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.delete{
+    position: absolute;
+    bottom: 250px;
+    right: 150px;
+    border: 3px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.check{
+    position: absolute;
+    bottom: 249px;
+    left: 150px;
+    border: 3px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*.edit2{
+    position: absolute;
+    bottom: 185px;
+    right: 150px;
+    background-color: rgb(17, 184, 73);
+    border: 3px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.delete2{
+    position: absolute;
+    bottom: 185px;
+    right: 60px;
+    background-color: rgb(184, 36, 17);
+    border: 3px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.marked1{
+    position: absolute;
+    bottom: 249px;
+    left: 150px;
+    background-color: rgb(27, 44, 192);
+    border: 3px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.marked2{
+    position: absolute;
+    bottom: 185px;
+    left: 150px;
+    background-color: rgb(27, 44, 192);
+    border: 3px;
+    border-radius: 5px;
+    padding: 10px;
+}*/
+
