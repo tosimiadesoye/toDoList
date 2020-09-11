@@ -12,6 +12,14 @@ let deleteBtn = document.createElement("span")
 let i = document.createElement("i")
     i.setAttribute("class", "far fa-trash-alt")
     deleteBtn.appendChild(i)
+    //delete text when delete icon is clicked
+        deleteBtn.onclick = deleteText = () => {
+            if(li){
+                li.style.display = "none"
+            }else{
+                li.style.display = "block"
+            }
+        }
 //paragraph text
 let text = document.createElement("p")
     text.setAttribute("class", "paragraph")
@@ -28,6 +36,10 @@ let checkBtn = document.createElement("span")
 let thirdI = document.createElement("i")
         thirdI.setAttribute("class", "fas fa-check")
         checkBtn.appendChild(thirdI)
+        //when checkIcon is clicked crossover text
+            checkBtn.onclick = crossOver = () => {
+                text.style.textDecorationLine = "line-through"
+            }
 //list
 let li = document.createElement("li")
     li.setAttribute("class", "list-li")
@@ -40,8 +52,6 @@ ol.appendChild(li)
 //erasing the text on the input tab 
 input.value = "";
 }
-
-
 
 
 
