@@ -6,6 +6,14 @@ let ol = document.querySelector("#ol-tag")
 addBtn.addEventListener("click", listItems)
 
 function listItems(){
+ //refresh Btn
+ let refresh = document.querySelector(".refresh")
+ let firstI = document.createElement("i")
+ firstI.setAttribute("class", "fas fa-sync-alt")
+     refresh.appendChild(firstI)
+     console.log(refresh)
+     refresh.onclick = refreshPage = () => ol.style.display = "none"
+div.appendChild(refresh)
 //delete btn
 let deleteBtn = document.createElement("span")
     deleteBtn.setAttribute("class", "delete")
@@ -38,8 +46,12 @@ let thirdI = document.createElement("i")
         checkBtn.appendChild(thirdI)
         //when checkIcon is clicked crossover text
             checkBtn.onclick = crossOver = () => {
-                text.style.textDecorationLine = "line-through"
+               if(text){
+                    text.style.textDecorationLine = "line-through"
+               }else{
+                   text.style.textDecorationLine = "none"               }
             }
+
 //list
 let li = document.createElement("li")
     li.setAttribute("class", "list-li")
