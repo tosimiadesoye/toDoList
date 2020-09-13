@@ -1,1 +1,1 @@
-header .to-do{color:#0074d9}
+header .to-do{color:#0074d9;text-transform:uppercase}.input,.editInput{border:ridge;border-radius:8px}.list-li{display:flex;justify-content:space-between;list-style:none;background-color:#e6f0f5}.list-li .save{display:none}.list-li .check{color:#0074d9}.list-li .delete{color:#ff4136}.list-li .edit{color:#3dd43d}

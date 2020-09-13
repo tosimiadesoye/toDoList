@@ -7,46 +7,30 @@
     <link rel="stylesheet" href="./scss/style.css">
     <title>To-do-list</title>
 </head> 
-<body class="container">
+<body class="container text-center align-self-center bg-dark text-white">
 <header>
-        <h1 class="to-do">to-do list</h1>
+        <h1 class="to-do mt-4 py-5">to-do list</h1>
 </header>
 <main>
-    <div>
+    <form>
         <input
             id="input-task" 
-            class="input"
+            class="input mt-3 pt-1"
             type="text"
             placeholder="new task"
         >
-        <button id="add-btn" type="button" class="btn btn-light">Add task
+        <button id="add-btn" type="button" class="btn btn-info">add
         </button>
-        <div id="div" class="div-container" >
+        <div id="div" class="div container" >
             <span class="refresh"></span>
-           <ol id="ol-tag">
+           <ol id="ol-tag" class="ol mt-4">
         
               
            </ol> 
            
         </div>
-        <div> 
-            <!--<li class="list-li">
-                   <span id="edit-btn" class="edit1"><i class="far fa-trash-alt"></i></span>
-                   <p class="para">fuck sake</p>
-                    <span class="delete1"><i class="far fa-edit"></i></span> 
-               </li>-->
-            <!--<p>build a project</p> -->
-            <!--<p>learn js animation</p>
-            <button class="edit2">edit</button>
-            <button class="delete2">delete</button>
-            <input  class="marked2" type="checkbox" checked></input>-->
-            <!--<button id="edit-btn" class="edit1">edit</button>
-            <button id="delete-btn" class="delete1">delete</button>
-            <input id="tick" class="marked1" type="checkbox"> <input/>
-            <input id="untick" class="marked1" type="checkbox"><input/>
-            <textarea id="edit-me"></textarea>-->
-        </div>
-    </div>
+        
+    </form>
 
 </main>
     
