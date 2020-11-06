@@ -23,7 +23,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[http://127.0.0.1:5500/index.html](url) and ![Image](src)
+[http://127.0.0.1:5500/index.html](http://127.0.0.1:5500/index.html) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
